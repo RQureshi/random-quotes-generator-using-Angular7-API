@@ -1,0 +1,8 @@
+{  
+    "/quotes": {  
+       "target": "http://thesimpsonsquoteapi.glitch.me",  
+       "secure": false,  
+       "changeOrigin": true,
+       "logLevel": "debug"  
+    }  
+ }  

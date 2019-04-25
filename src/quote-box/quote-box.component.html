@@ -1,0 +1,56 @@
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="author-quote-wrap" >
+        <!-- <div *ngFor="let hero of quote"> -->
+	<input class="toggle-quote" type="radio" id="AQ-1" name="quote" checked>
+	<div class="author-quote">
+		<div class="pull-left author-photo  animated bounceInLeft">
+                <!-- <img src="{{hero.image}}" alt=""> -->
+                <div class="navigate">
+                <button class="quote-like left" (click)="getQuote()">
+                        <li class="fa fa-plus"></li>
+                    </button>
+                    <a target="blank" href="'https://twitter.com/intent/tweet?text='+ {{quote.quote}}"
+                    class="btn btn-group"><li class="fa fa-twitter"></li></a>
+                </div>
+			<!-- <div class="navigate">
+				<label class="label left" for="AQ-5"> </label>
+				<label class="label right" for="AQ-2"> </label>
+			</div> -->
+		</div>
+		<div class="pull-right quote-content">
+			<div class="clearfix animated zoomIn">
+				<div class="quote-like pull-right"><span class="love"></span> 423</div>
+			</div>
+			<div class="quote-text animated rotateInDownRight">{{quote.quote}}</div>
+			<div class="quote-author animated lightSpeedIn">{{quote.character}}</div>
+		</div>
+	</div>
+<!-- 
+	<input class="toggle-quote" type="radio" id="AQ-2" name="quote">
+	<div class="author-quote">
+		<div class="pull-left author-photo photo-b animated bounceInLeft">
+			<div class="navigate">
+				<label class="label left" for="AQ-1"> </label>
+				<label class="label right" for="AQ-3"> </label>
+			</div>
+		</div>
+		<div class="pull-right quote-content">
+			<div class="clearfix animated zoomIn">
+				<div class="quote-like pull-right"><span class="love"></span> 512</div>
+			</div>
+			<div class="quote-text animated zoomInDown">My Goal Was<br>To Prove<br>To My Family<br>I wasn't a dummy</div>
+			<div class="quote-author animated lightSpeedIn">Ronalda Colen</div>
+		</div>
+	</div> -->
+
+	
+
+	
+
+	
+		
+<!-- </div> -->
